@@ -114,3 +114,13 @@ ARRAY.REDUCE FORMULA
 ARRAY.FILTER FORMULA
 ************************************************
 */
+
+function testFilter(arr) {
+  return arr.filter(function (element) {
+    return element > 5;
+  });
+}
+
+const testFilterVar = testFilter([15, 3, 2, 25]);
+
+// returns [15, 25]
