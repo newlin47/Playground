@@ -118,6 +118,8 @@ function testReduce(arr) {
 
 const testReduceVar = testReduce([1, 2, 3, 4]);
 
+// returns 10
+
 /*
 ************************************************
 ARRAY.FILTER FORMULA

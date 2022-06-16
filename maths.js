@@ -14,11 +14,35 @@ MATH.ABS FORMULA
 ************************************************
 */
 
+function testAbs(num) {
+  return Math.abs(num);
+}
+
+const testAbsVar = testAbs(8);
+
+// returns 8
+
+const testAbsVar2 = testAbs(-8);
+
+// returns 8
+
 /*
 ************************************************
 MATH.ROUND FORMULA
 ************************************************
 */
+
+function testRound(num) {
+  return Math.round(num);
+}
+
+const testRoundVar = testRound(15.4);
+
+// returns 15
+
+const testRoundVar2 = testRound(15.5);
+
+// returns 16
 
 /*
 ************************************************
@@ -26,11 +50,27 @@ MATH.CEIL FORMULA
 ************************************************
 */
 
+function testCeil(num) {
+  return Math.ceil(num);
+}
+
+const testCeilVar = testCeil(15.4);
+
+// returns 16
+
 /*
 ************************************************
 MATH.FLOOR FORMULA
 ************************************************
 */
+
+function testFloor(num) {
+  return Math.floor(num);
+}
+
+const testFloorVar = testFloor(15.8);
+
+// returns 15
 
 /*
 ************************************************
