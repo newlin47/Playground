@@ -109,6 +109,15 @@ ARRAY.REDUCE FORMULA
 ************************************************
 */
 
+function testReduce(arr) {
+  return arr.reduce(function (accum, currVal) {
+    accum += currVal;
+    return accum;
+  }, 0);
+}
+
+const testReduceVar = testReduce([1, 2, 3, 4]);
+
 /*
 ************************************************
 ARRAY.FILTER FORMULA
