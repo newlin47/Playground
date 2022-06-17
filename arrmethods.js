@@ -86,11 +86,32 @@ ARRAY.SLICE FORMULA
 ************************************************
 */
 
+function testSlice (arr) {
+  return arr.slice(3,6);
+}
+
+const testSliceVar = testSlice(['a','b','c','d','e','f','g','h','i','j','k','l']);
+
+// returns ['d', 'e', 'f']
+
 /*
 ************************************************
 ARRAY.MAP FORMULA
 ************************************************
 */
+
+// array.map(function (element, index, array));
+
+function testMap (arr) {
+  return arr.map(function (element) {
+    return element *2;
+  });
+}
+
+const testMapVar = testMap([1,2,3,4]);
+
+// returns [2,4,6,8]
+
 
 /*
 ************************************************
@@ -98,16 +119,44 @@ ARRAY.EVERY FORMULA
 ************************************************
 */
 
+function testEvery (arr) {
+  return arr.every(function (element) {
+    return element <=10;
+  });
+}
+
+const testEveryVar = testEvery([1,2,3,4]);
+
+// returns true
+
+const testEveryVar2 = testEvery([1,2,3,21]);
+
+// returns false
+
+
 /*
 ************************************************
 ARRAY.FOREACH FORMULA
+************************************************
 */
+
+function testForEach (arr) {
+  return arr.forEach(function (element) {
+    return element+1;
+  });
+}
+
+const testForEachVar = testForEach([8,9,10,11,12]);
+
+
 
 /* 
 ************************************************
 ARRAY.REDUCE FORMULA
 ************************************************
 */
+
+// reduce(function(previousValue, currentValue, currentIndex, array) { /* ... */ }, initialValue)
 
 function testReduce(arr) {
   return arr.reduce(function (accum, currVal) {
