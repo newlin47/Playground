@@ -10,6 +10,23 @@ TESTING OBJECT CREATION METHODS
 
 /*
 ************************************************
+DECLARING OBJECT LITERAL FORMULAS
+************************************************
+*/
+
+const sampObj1 = {
+  name: "Ethan",
+  age: 38,
+  location: "NYC",
+  updAge(num) {
+    age = num;
+  },
+  degrees: ["bachelor", "master"],
+  family: [{ mother: "Jean" }, { father: "Charles" }],
+};
+
+/*
+************************************************
 FACTORY FUNCTION FORMULA
 ************************************************
 */
