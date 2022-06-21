@@ -14,11 +14,27 @@ STRING.TOLOWERCASE FORMULA
 ************************************************
 */
 
+function testLower(str) {
+  return str.toLowerCase();
+}
+
+const testLowerVar = testLower("LOWERS ALL CAPS");
+
+// returns 'lowers all caps'
+
 /*
 ************************************************
 STRING.TOUPPERCASE FORMULA
 ************************************************
 */
+
+function testUpper(str) {
+  return str.toUpperCase();
+}
+
+const testUpperVar = testUpper("makes all caps");
+
+// returns 'MAKES ALL CAPS'
 
 /*
 ************************************************

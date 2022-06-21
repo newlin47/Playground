@@ -193,3 +193,15 @@ function testFilter(arr) {
 const testFilterVar = testFilter([15, 3, 2, 25]);
 
 // returns [15, 25]
+
+function difference(arrayA, arrayB) {
+  return arrayA.filter(function (obj) {
+    return arrayB.indexOf(obj) == -1;
+  });
+}
+/*
+the function difference above takes two arrays
+and returns a new array that contains the unique
+items from ArrayA (that are not present in both).
+It does not change either source array.
+*/

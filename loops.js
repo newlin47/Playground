@@ -58,3 +58,9 @@ console.log(testgridDerVar); =
 ###
 
 */
+
+/*
+Renaming files practice
+*/
+
+function renamerFiles(arr) {}
