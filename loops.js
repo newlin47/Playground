@@ -60,7 +60,12 @@ console.log(testgridDerVar); =
 */
 
 /*
-Renaming files practice
-*/
+ ************************************************
+ NESTED FOR LOOPS USING ARRAY METHODS
+ ************************************************
+ */
 
-function renamerFiles(arr) {}
+const emptyArray = [...Array(6)];
+// creates an empty array with length of 6
+// all values are undefined
+// can be useful to use as a replacement for a loop

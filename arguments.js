@@ -8,6 +8,24 @@ USING ARGUMENTS IN DIFFERENT WAYS
 ************************************************
 */
 
+const testObject = {
+  name: "Ethan",
+  age: 38,
+  location: "NYC",
+  education: "Master degree",
+  relationship: "married",
+};
+
+const testObject2 = {
+  name: "Mike",
+  age: 37,
+  location: "DC",
+  education: "PHD",
+  relationship: "single",
+};
+
+const testArrOfObjs = [testObject, testObject2];
+
 /*
 ************************************************
 USING ARGUMENTS AS REST PARAMETERS
